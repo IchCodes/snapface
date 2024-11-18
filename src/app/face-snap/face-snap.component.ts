@@ -10,13 +10,13 @@ import {Component, OnInit} from '@angular/core';
 export class FaceSnapComponent implements OnInit {
   title!: string;
   description!: string;
-  created!: Date;
+  createdAt!: Date;
   snaps!: number;
 
   ngOnInit() {
-    this.title = 'Junayd';
+    this.title = 'Junayd mon fils';
     this.description = 'Mon fils';
-    this.created = new Date();
+    this.createdAt = new Date();
     this.snaps = 0;
   }
 }
