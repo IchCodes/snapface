@@ -18,7 +18,7 @@ export class FaceSnapsService {
       'https://cdn.pixabay.com/photo/2021/10/11/18/58/lake-6701636_1280.jpg',
       new Date(),
       15
-    ),new FaceSnap(
+    ).withLocation('Montagne'),new FaceSnap(
       'Coucher de soleil',
       'Un magnifique coucher de soleil sur la plage',
       'https://cdn.pixabay.com/photo/2023/02/02/10/02/sunset-7762468_640.jpg',
