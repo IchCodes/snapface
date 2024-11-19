@@ -38,5 +38,6 @@ export class AppComponent implements OnInit {
       22
     );
 
+    this.myOtherSnap.setLocation('Montagne');
   }
 }
