@@ -18,14 +18,14 @@ export class AppComponent implements OnInit {
     this.mySnap = new FaceSnap(
       'Junayd mon fils ',
       'Mon fils ',
-      'https://avatars.githubusercontent.com/u/1004983?v=4',
+      'https://cdn.pixabay.com/photo/2016/05/17/22/16/baby-1399332_640.jpg',
       new Date(),
       8
     );
     this.myOtherSnap = new FaceSnap(
       'Vue de la montagne',
       'Un superbe paysage montagneux',
-      'https://cdn.pixabay.com/photo/2023/09/22/03/51/beautiful-8267949_1280.jpg',
+      'https://cdn.pixabay.com/photo/2021/10/11/18/58/lake-6701636_1280.jpg',
       new Date(),
       15
     );
@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
     this.myLastSnap = new FaceSnap(
       'Coucher de soleil',
       'Un magnifique coucher de soleil sur la plage',
-      'https://cdn.pixabay.com/photo/2023/11/04/07/40/cat-8364405_1280.jpg',
+      'https://cdn.pixabay.com/photo/2023/02/02/10/02/sunset-7762468_640.jpg',
       new Date(),
       22
     );
